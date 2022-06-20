@@ -1,0 +1,630 @@
+.primary-nav-bar {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 59px;
+    border-radius: 0;
+    border: 0;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav:after, .nav:before {
+    display: table;
+    content: " ";
+}
+
+.icon-dashboard:before {
+    content: "\f13b";
+}
+
+[class*=hint--][data-hint]:after {
+    content: attr(data-hint);
+}
+.hint--right:after, .hint--right:before {
+    left: 100%;
+    bottom: 50%;
+}
+.hint--right:after {
+    margin-bottom: -14px;
+}
+
+.icon-inbox:before {
+    content: "\f193";
+}
+
+.icon-my-job:before {
+    content: "\f1c6";
+}
+
+.icon-directory:before {
+    content: "\f13d";
+}
+
+.icon-help-circled:before {
+    content: "\f187";
+}
+
+.icon-ellipsis-v:before {
+    content: "\f14b";
+}
+
+.icon-ellipsis-v {
+    position: absolute;
+    right: -11px;
+    font-size: 14px;
+    opacity: .5;
+    top: 5px;
+}
+
+.icon-reports-nav:before {
+    content: "\f1fe";
+}
+
+.icon-settings:before {
+    content: "\f212";
+}
+
+.icon-comment:before {
+    content: "\f131";
+}
+
+.primary-nav-bar .stack-bottom .ominbar-btn {
+    text-align: center;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.primary-nav-bar .stack-bottom {
+    position: fixed;
+    bottom: 20px;
+}
+
+.r{
+    position: relative;
+}
+
+.primary-nav-bar .nav-pills>li .primary-nav-link>a, .primary-nav-bar .nav-pills>li>a, .primary-nav-bar .stack-bottom>li .primary-nav-link>a, .primary-nav-bar .stack-bottom>li>a {
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+}
+
+.add-button-control:before, .alert-danger .alert-icon:before, .alert-info .alert-icon:before, .alert-reset-success .alert-icon:before, .alert-success .alert-icon:before, .alert-warning .alert-icon:before, .alert.alert-reset-password .alert-icon:before, .apply-leave-type .ember-radio-button.checked .leave-type-circle:before, .avatar-circle .initialsAvatar.no-name:before, .bg-caret:before, .breadcrumb-title:before, .btn-stage-changes .quick-apply-timeoff .dropdown-menu .active.dropdown-toggle:before, .calendar-icon:before, .datepicker .next:before, .datepicker .prev:before, .dropdown-menu>li a.active:before, .dropdown-menu>li.active a:before, .ember-power-select-option[aria-selected=true]:before, .feedback-hire-selected i:before, .feedback-neutral-selected i:before, .feedback-no-hire-selected i:before, .feedback-strong-hire-selected i:before, .feedback-strong-no-hire-selected i:before, .filter-with-section .dropdown-menu .expand-filter-dropdown>li.active a:before, .handsontable td.datePicker .htAutocompleteArrow:before, .hire-radio-button .checked .feedback-hire i:before, .hire-radio-button .checked .feedback-neutral i:before, .hire-radio-button .checked .feedback-no-hire i:before, .hire-radio-button .checked .feedback-strong-hire i:before, .hire-radio-button .checked .feedback-strong-no-hire i:before, .hire-radio-button .feedback-hire i:before, .hire-radio-button .feedback-neutral i:before, .hire-radio-button .feedback-no-hire i:before, .hire-radio-button .feedback-strong-hire i:before, .hire-radio-button .feedback-strong-no-hire i:before, .hire-radio-button.checked .feedback-hire i:before, .hire-radio-button.checked .feedback-neutral i:before, .hire-radio-button.checked .feedback-no-hire i:before, .hire-radio-button.checked .feedback-strong-hire i:before, .hire-radio-button.checked .feedback-strong-no-hire i:before, .icon-accordion-close:before, .icon-accordion-open:before, .icon-activation:before, .icon-add-circled:before, .icon-add-emp:before, .icon-add-to-profile:before, .icon-add:before, .icon-alert-danger:before, .icon-angel-circled-solid:before, .icon-angel-circled:before, .icon-angel-circled:hover:before, .icon-application-details:before, .icon-arrow-left:before, .icon-arrow-right-double:before, .icon-arrow-right:before, .icon-assesment-completed:before, .icon-at:before, .icon-attachments-vertical:before, .icon-attachments:before, .icon-automation-robot:before, .icon-avatar-loading:before, .icon-back:before, .icon-behance-circled-solid:before, .icon-behance-circled:before, .icon-behance-circled:hover:before, .icon-bell-line:before, .icon-bell-strike-filled:before, .icon-bell-strike:before, .icon-bell:before, .icon-block:before, .icon-book-article:before, .icon-breadcrumb-arrow:before, .icon-bulb:before, .icon-calendar:before, .icon-cand-round:before, .icon-candidate-profile:before, .icon-candidates:before, .icon-canned-response:before, .icon-career-portal:before, .icon-certificate:before, .icon-change-job-role:before, .icon-change:before, .icon-chat-bubble:before, .icon-check:before, .icon-checkbox-tick:before, .icon-checkbox:before, .icon-checklist:before, .icon-clean:before, .icon-clock:before, .icon-close-small:before, .icon-close:before, .icon-collapse-all:before, .icon-comment:before, .icon-complete:before, .icon-contact-thin:before, .icon-contact:before, .icon-conversation:before, .icon-cool-off-restore:before, .icon-cool-off:before, .icon-copy:before, .icon-cost-center:before, .icon-cover-letter:before, .icon-custom-filter:before, .icon-dashboard:before, .icon-department:before, .icon-directory:before, .icon-dislike-solid:before, .icon-dislike:before, .icon-dob:before, .icon-documents:before, .icon-double-tags:before, .icon-down-arrow:before, .icon-down:before, .icon-download-line:before, .icon-dribbble-circled-solid:before, .icon-dribbble-circled:before, .icon-dribbble-circled:hover:before, .icon-duplicate:before, .icon-edit:before, .icon-education:before, .icon-eeo:before, .icon-ellipsis-round-fill:before, .icon-ellipsis-v:before, .icon-ellipsis:before, .icon-email-circled-solid:before, .icon-email-circled:before, .icon-email-circled:hover:before, .icon-email-solid:before, .icon-email-unverified:before, .icon-email:before, .icon-emergency:before, .icon-emp-add:before, .icon-emp-delete:before, .icon-emp-no-show:before, .icon-emp-restore:before, .icon-erase:before, .icon-exclamation-circle-fill:before, .icon-exclamation-circle:before, .icon-exclamation-triangle:before, .icon-expand-all:before, .icon-expand:before, .icon-experience:before, .icon-export:before, .icon-eye-off:before, .icon-eye:before, .icon-facebook-circled-solid:before, .icon-facebook-circled:before, .icon-facebook-circled:hover:before, .icon-fb-page:before, .icon-feedback-given:before, .icon-feedback-multi_checkbox:before, .icon-feedback-radio:before, .icon-feedback-score:before, .icon-feedback-score_with_comment:before, .icon-feedback-text:before, .icon-first-half:before, .icon-flag:before, .icon-focus:before, .icon-form-attachment:before, .icon-form-checkbox:before, .icon-form-datepicker:before, .icon-form-document:before, .icon-form-dropdown:before, .icon-form-email:before, .icon-form-field-group:before, .icon-form-hyperlink:before, .icon-form-number:before, .icon-form-phone:before, .icon-form-radio:before, .icon-form-text:before, .icon-form-textarea:before, .icon-form-timer:before, .icon-form-web:before, .icon-forward:before, .icon-front:before, .icon-ft:before, .icon-funnel:before, .icon-gift:before, .icon-github-circled-solid:before, .icon-github-circled:before, .icon-github-circled:hover:before, .icon-googleplus-circled-solid:before, .icon-googleplus-circled:before, .icon-googleplus-circled:hover:before, .icon-heart-solid:before, .icon-heart.active:before, .icon-heart:before, .icon-help-circled:before, .icon-help:before, .icon-hire-solid:before, .icon-hire:before, .icon-history:before, .icon-hold-restore:before, .icon-holiday:before, .icon-honours:before, .icon-hr-contact:before, .icon-hyperlink:before, .icon-img-upload:before, .icon-import:before, .icon-impoting-cand-error:before, .icon-impoting-cand-success:before, .icon-impoting-cand:before, .icon-inbox:before, .icon-info:before, .icon-inprogress:before, .icon-insert-placeholder:before, .icon-instructions:before, .icon-int-cancelled:before, .icon-int-kit:before, .icon-int-sch:before, .icon-interests:before, .icon-intranet:before, .icon-jd-template-filled:before, .icon-jd-template:before, .icon-job-close:before, .icon-job-cut:before, .icon-job-draft:before, .icon-job-internal:before, .icon-job-on_hold:before, .icon-job-private:before, .icon-job-published:before, .icon-job-share:before, .icon-key:before, .icon-label:before, .icon-like-solid:before, .icon-like-strong-solid:before, .icon-like:before, .icon-linkedin-circled-solid:before, .icon-linkedin-circled:before, .icon-linkedin-circled:hover:before, .icon-linkedin:before, .icon-list:before, .icon-loading:before, .icon-location-map:before, .icon-location:before, .icon-lock-off:before, .icon-lock:before, .icon-logo:before, .icon-mail-resend:before, .icon-manager:before, .icon-mark-all-read:before, .icon-mask:before, .icon-maximize:before, .icon-medium-circled-solid:before, .icon-medium-circled:before, .icon-medium-circled:hover:before, .icon-menu:before, .icon-minimise:before, .icon-minimize:before, .icon-minus-circled:before, .icon-minus-circled:hover:before, .icon-minus-filled:before, .icon-mobile-solid:before, .icon-move-stage:before, .icon-move-to-job:before, .icon-move-to-stage:before, .icon-multi-jobs:before, .icon-my-job:before, .icon-mycompany:before, .icon-myteam:before, .icon-mytimeoff:before, .icon-nav-apps:before, .icon-nav-plus:before, .icon-neutral-solid:before, .icon-neutral:before, .icon-never-signed-in:before, .icon-new-cand:before, .icon-new-section:before, .icon-no-hire-solid:before, .icon-no-hire:before, .icon-no-timeoff:before, .icon-note:before, .icon-notes:before, .icon-notify-private-comment:before, .icon-offboarding:before, .icon-offer-accepted:before, .icon-offer-declines:before, .icon-offer-made:before, .icon-offer-opened:before, .icon-offer:before, .icon-onboarding:before, .icon-open-in-portal:before, .icon-org-chart:before, .icon-origin:before, .icon-parsing:before, .icon-partnership:before, .icon-pending:before, .icon-phone-solid:before, .icon-phone:before, .icon-pin:before, .icon-pinterest-circled-solid:before, .icon-pinterest-circled:before, .icon-pinterest-circled:hover:before, .icon-plus-filled:before, .icon-plus-minus-filled:before, .icon-portal-circled:before, .icon-portfolio:before, .icon-pre-emp:before, .icon-producthunt-circled-solid:before, .icon-producthunt-circled:before, .icon-producthunt-circled:hover:before, .icon-profile:before, .icon-publications:before, .icon-quick-action-circle:before, .icon-quick-action:before, .icon-re-auth:before, .icon-recent-hires:before, .icon-recent-offers:before, .icon-recruit:before, .icon-refer:before, .icon-referral-circled:before, .icon-refresh:before, .icon-reject-solid:before, .icon-reject-strong-solid:before, .icon-reject:before, .icon-reorder:before, .icon-reply-all:before, .icon-reply:before, .icon-reports-nav:before, .icon-reports:before, .icon-requisitation-remove:before, .icon-requisitation-update:before, .icon-requisition:before, .icon-restore:before, .icon-resume:before, .icon-right-arrow-fill:before, .icon-right-arrow:before, .icon-room:before, .icon-round-crossed:before, .icon-round-fill:before, .icon-round:before, .icon-save-as:before, .icon-save-thick:before, .icon-save:before, .icon-search-big:before, .icon-search:before, .icon-second-half:before, .icon-send-activation:before, .icon-sensitive:before, .icon-settings:before, .icon-share:before, .icon-shell:before, .icon-show-window:before, .icon-sign:before, .icon-skills:before, .icon-skype:before, .icon-snooze:before, .icon-sort-asc:before, .icon-sort-desc:before, .icon-sourcing-partner:before, .icon-star-o-strike:before, .icon-star-o:before, .icon-star-scattered:before, .icon-star-update:before, .icon-star:before, .icon-strong-hire-solid:before, .icon-strong-hire:before, .icon-strong-no-hire-solid:before, .icon-strong-no-hire:before, .icon-style:before, .icon-suggested-fields:before, .icon-summary:before, .icon-sync-error:before, .icon-sync:before, .icon-tags-solid:before, .icon-tags:before, .icon-talent-pool-fill:before, .icon-talent-pool:before, .icon-task:before, .icon-team:before, .icon-tick-round-solid:before, .icon-tick-round:before, .icon-time-off:before, .icon-time-solid:before, .icon-time:before, .icon-timeline-dot:before, .icon-timeoff-negative:before, .icon-timeoff:before, .icon-toggle-cross:before, .icon-tour-sign:before, .icon-trash-strike-thru:before, .icon-trash:before, .icon-tumblr-circled-solid:before, .icon-tumblr-circled:before, .icon-tumblr-circled:hover:before, .icon-twitter-circled-solid:before, .icon-twitter-circled:before, .icon-twitter-circled:hover:before, .icon-unarchive:before, .icon-uncheck:before, .icon-undo-no-show:before, .icon-up-arrow:before, .icon-up-sort:before, .icon-video:before, .icon-volunteer:before, .icon-waiting-for-decision:before, .icon-web-circled-solid:before, .icon-web-circled:before, .icon-web:before, .icon-wordpress-circled-solid:before, .icon-wordpress-circled:before, .icon-wordpress-circled:hover:before, .icon-work-anniversary:before, .icon-work-station:before, .icon-write:before, .input-success:before, .input-success:focus:before, .input-success:hover:before, .lead-details-column-section .spot-edit-field .ember-basic-dropdown-trigger .ember-power-select-status-icon:before, .lead-source-direct-circled:before, .lead-source-facebook-circled:before, .lead-source-facebook-circled:hover:before, .lead-source-fb_page_tab-circled:before, .lead-source-google_plus-circled:before, .lead-source-google_plus-circled:hover:before, .lead-source-internal-circled:before, .lead-source-linkedin-circled:before, .lead-source-linkedin-circled:hover:before, .lead-source-partnership-circled:before, .lead-source-twitter-circled:before, .lead-source-twitter-circled:hover:before, .leave-tab li .validation-icon.locked:before, .leave-tab li .validation-icon:before, .new-job .show-templates-btn .icon-jd-template:hover:before, .not-assessed .feedback-icon-checkbox:before, .not-assessed input[type=checkbox]:checked+.feedback-icon-checkbox:before, .open-close-icon:before, .power-multi-select-options .ember-power-select-group-name[aria-selected=true]:before, .progressive-tabs>li+li:before, .progressive-tabs>li.completed .tab-index:before, .quick-apply-timeoff .dropdown-menu .active.feedback-btn:before, .quick-apply-timeoff .dropdown-menu .btn-stage-changes .active.dropdown-toggle:before, .quick-apply-timeoff .dropdown-menu .btn.active:before, .rating label.active:before, .rating label:before, .rating:not(.readonly):not(:checked)>label:hover:before, .rating:not(.readonly):not(:checked)>label:hover~label:before, .rating:not(.readonly)>input:checked+label:hover:before, .rating:not(.readonly)>input:checked~label:hover:before, .rating:not(.readonly)>input:checked~label:hover~label:before, .rating:not(.readonly)>label:hover~input:checked~label:before, .rating>input:checked~label:before, .remove-button-control:before, .spot-edit-field.users-select-rounded .ember-power-select-status-icon:before, .star-rating label:before, .star-rating:not(.disabled)>input:checked+label:hover:before, .star-rating:not(.disabled)>input:checked~label:hover:before, .star-rating:not(.disabled)>input:checked~label:hover~label:before, .star-rating:not(.disabled)>label:hover~input:checked~label:before, .star-rating:not(:checked):not(.disabled)>label:hover:before, .star-rating:not(:checked):not(.disabled)>label:hover~label:before, .star-rating>input:checked~label:before, .sub-header .breadcrumb .custom-b-links>li+li:before, .sub-header .breadcrumb>li+li:before, .timeline.checked-timeline .timeline-list.completed .timeline-circle:before, .usage-icon-close:before, .usage-icon-open:before, .work-week-day>label:before, [data-icon]:before {
+    display: inline-block;
+    font-family: glyphs;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+
+[class*=hint--]:after {
+    background: #383838;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height: 1;
+    white-space: nowrap;
+    text-shadow: 0 -1px 0 #000;
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 30%);
+}
+
+
+.primary-nav-bar .nav-pills>li .primary-nav-link>a, .primary-nav-bar .nav-pills>li>a, .primary-nav-bar .stack-bottom>li .primary-nav-link>a, .primary-nav-bar .stack-bottom>li>a {
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+}
+
+.navbar-inverse {
+    background-color: #12344d;
+}
+
+.top-bar{
+    height: 60px;
+    background: #39c;
+    width: 100%;
+}
+
+.sub-header {
+    background: #fff;
+    position: fixed;
+    left: 60px;
+    right: 0;
+    top: 0;
+}
+
+.sub-header {
+    z-index: 9;
+}
+
+.top-nav-bar {
+    z-index: 8;
+}
+.top-nav-bar {
+    height: 54px;
+    border-radius: 0;
+    background: #fff;
+    padding-left: 0;
+    padding-right: 30px;
+    margin: 0;
+    -webkit-box-shadow: 0 0 0 1px #ebeff3;
+    box-shadow: 0 0 0 1px #ebeff3;
+    border: 0;
+}
+
+.top-nav-bar .navbar-collapse {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 10px 15px 10px 30px;
+    height: 35px;
+}
+.navbar-brand {
+    float: left;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.brand-header-logo {
+    max-width: 350px;
+    max-height: 34px;
+}
+
+.brand-name {
+    font-size: 18px;
+    float: left;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 19px;
+    margin-bottom: 9.5px;
+}
+
+h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
+    color: #12344d !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.ft-logo {
+    height: 54px;
+    text-align: center;
+    color: #427eb0;
+    font-size: 28px;
+    opacity: .3;
+    border-bottom: 1px solid #427eb0;
+    -webkit-box-shadow: 0 1px 0 #000;
+    box-shadow: 0 1px 0 #000;
+}
+
+.ft-icon {
+    height: 25px;
+}
+
+.ft-logo i::before {
+    line-height: 1.92;
+}
+.icon-ft:before {
+    content: "\f17d";
+}
+
+.subheader-content {
+    height: 54px;
+    float: left;
+    background-color: #f5f7f9;
+    border-bottom: 1px solid #cfd7df;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.brand-header-logo {
+    max-width: 350px;
+    max-height: 34px;
+}
+.subheader-left {
+    float: left;
+    width: 75%;
+    padding-right: 20px;
+}
+
+.sub-header .breadcrumb {
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 0;
+    max-width: 70%;
+    float: left;
+}
+
+.breadcrumb {
+    padding: 5px 0;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.btn-stage-changes .job-sub-header-tab-btns-wrap.dropdown-toggle, .job-sub-header-tab-btns-wrap.btn, .job-sub-header-tab-btns-wrap.feedback-btn {
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-left: 10px;
+}
+.btn-default, .btn-link-default {
+    color: #12344d;
+    background-color: #fff;
+    border-color: #cfd7df;
+}
+.btn, .btn-stage-changes .dropdown-toggle, .feedback-btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 10px;
+    font-size: 14px;
+    line-height: 1.33333;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.primary-nav-bar .nav-pills>li .primary-nav-link>a.active, .primary-nav-bar .nav-pills>li .primary-nav-link>a.active:focus, .primary-nav-bar .nav-pills>li .primary-nav-link>a.active:hover, .primary-nav-bar .nav-pills>li .primary-nav-link>a:active, .primary-nav-bar .nav-pills>li>a.active, .primary-nav-bar .nav-pills>li>a.active:focus, .primary-nav-bar .nav-pills>li>a.active:hover, .primary-nav-bar .nav-pills>li>a:active, .primary-nav-bar .stack-bottom>li .primary-nav-link>a.active, .primary-nav-bar .stack-bottom>li .primary-nav-link>a.active:focus, .primary-nav-bar .stack-bottom>li .primary-nav-link>a.active:hover, .primary-nav-bar .stack-bottom>li .primary-nav-link>a:active, .primary-nav-bar .stack-bottom>li>a.active, .primary-nav-bar .stack-bottom>li>a.active:focus, .primary-nav-bar .stack-bottom>li>a.active:hover, .primary-nav-bar .stack-bottom>li>a:active {
+    color: #fff;
+    background-color: #7052cc;
+}
+
+.inbox-unseen-count {
+    position: absolute;
+    top: -4px;
+    border-radius: 50%;
+    background: #ff5969;
+    height: 12px;
+    width: 12px;
+    left: 16px;
+    display: block;
+}
+
+
+.top-nav-bar .navbar-right {
+    margin-right: 0;
+}
+@media (min-width: 768px){
+    .navbar-right {
+        float: right!important;
+        margin-right: -10px;
+    }
+
+    .navbar-nav {
+        float: left;
+        margin: 0;
+    }
+}
+
+.common-search-input .placeholder-search-icon {
+    position: absolute;
+    top: 7px;
+    font-size: 15px;
+    left: 10;
+    z-index: 1;
+    color: #607787;
+}
+
+.navbar-nav {
+    margin: 5px -10px;
+}
+
+.icon-search-big:before {
+    content: "\f20e";
+}
+
+.common-search-input .form-group {
+    margin-bottom: 0;
+}
+.relative {
+    position: relative;
+}
+
+.common-search-input input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.form-control {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #12344d;
+    padding: 5px 10px;
+    line-height: 1.42857;
+    border: 1px solid #cfd7df;
+}
+.form-control {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.page-common-add .dropdown-toggle.add-new-button {
+    padding: 4px 10px;
+    border-radius: 4px;
+    background-color: #264966;
+    color: #fff;
+    font-weight: 600;
+    margin: 3px 0;
+}
+
+.common-search-input {
+    padding-right: 18px;
+}
+
+.top-nav-bar .top-nav-separator {
+    border-left: 1px solid #e9edf5;
+    width: 1px;
+    height: 24px;
+    margin: 7px 5px;
+}
+
+
+.common-search-button, .page-common-add {
+    padding: 2px 8px;
+}
+
+.top-nav-bar .navbar-nav>li>a.beamer-trigger {
+    padding-top: 6px;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+.top-nav-bar .navbar-nav>li>.disabled-link, .top-nav-bar .navbar-nav>li>a {
+    padding: 15px 8px;
+    color: #92a2b1;
+}
+
+.icon-gift:before {
+    content: "\f17f";
+}
+
+a:hover, a:focus {
+    color: #2a6496;
+    text-decoration: none;
+}
+
+.top-nav-bar .navbar-nav>li>.header-profile-icon.disabled-link, .top-nav-bar .navbar-nav>li>a.header-profile-icon {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 0;
+}
+
+.top-nav-bar .navbar-nav>li>.disabled-link, .top-nav-bar .navbar-nav>li>a {
+    padding: 15px 8px;
+    color: #92a2b1;
+}
+
+.vertical-align {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.top-nav-bar .navbar-nav>li>.header-profile-icon.disabled-link .avatar-circle, .top-nav-bar .navbar-nav>li>a.header-profile-icon .avatar-circle {
+    height: 35px;
+    width: 35px;
+}
+.avatar-circle {
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 50%;
+}
+.avatar-circle, .checkbox .check-box {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.top-nav-bar .navbar-nav>li>.header-profile-icon.disabled-link .initialsAvatar, .top-nav-bar .navbar-nav>li>a.header-profile-icon .initialsAvatar {
+    font-size: 18px;
+}
+.avatar-circle .initialsAvatar {
+    border-radius: 50%;
+}
+.initialsAvatar {
+    color: #fff;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+.avatarColor-15 {
+    background-color: #AFCFFD;
+    opacity: .9;
+}
+
+@media (min-width: 768px){
+    .navbar-nav>li {
+        float: left;
+    }
+}
+.nav>li, .nav>li>a {
+    display: block;
+    position: relative;
+}
+
+.icon-add:before {
+    content: "\f103";
+}
+
+.page-common-add .dropdown-toggle.add-new-button i {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+
+.custom-b-links>li, .custom-b-links>li .breadcrumb-link, .custom-b-links>li .dropdown-toggle, .custom-b-links>li>a, .sub-header .breadcrumb-title, .sub-header .breadcrumb>li, .sub-header .breadcrumb>li .breadcrumb-link, .sub-header .breadcrumb>li .dropdown-toggle, .sub-header .breadcrumb>li>a {
+    color: #12344d;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sub-header .breadcrumb-title {
+    color: #12344d;
+    margin-top: 18px;
+}
+
+.sub-header .breadcrum-menu-icon, .sub-header .breadcrumb-title::before {
+    position: relative;
+    top: 1px;
+}
+.breadcrumb-title::before {
+    padding: 0 10px;
+}
+.breadcrumb-title:before, .icon-breadcrumb-arrow:before, .progressive-tabs>li+li:before, .sub-header .breadcrumb .custom-b-links>li+li:before, .sub-header .breadcrumb>li+li:before {
+    content: "\f105";
+    font-family : "fontawesome";
+}
+
+
+.subheader-right {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    text-align: right;
+}
+
+.sub-header-btns {
+    padding: 11px 0;
+    float: right;
+}
+
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn-default, .btn-link-default {
+    color: #12344d;
+    background-color: #fff;
+    border-color: #cfd7df;
+}
+.btn, .btn-stage-changes .dropdown-toggle, .feedback-btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 10px;
+    font-size: 14px;
+    line-height: 1.33333;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dropdown-toggle.job-sub-header-status {
+    background: #264966;
+    color: #fff;
+}
+
+[class*=hint--] {
+    position: relative;
+    display: inline-block;
+}
+
+.icon-job-published:before {
+    content: "\f1a5";
+}
+
+.btn .caret, .btn .file-header-field-mapper .field-mapping-row-element .mapping-arrow .arrow-head, .btn .htDatepickerHolder .pika-label::after, .btn-group>.btn:first-child, .btn-group>.feedback-btn:first-child, .btn-stage-changes .btn-group>.dropdown-toggle:first-child, .btn-stage-changes .dropdown-toggle .caret, .btn-stage-changes .dropdown-toggle .file-header-field-mapper .field-mapping-row-element .mapping-arrow .arrow-head, .btn-stage-changes .dropdown-toggle .htDatepickerHolder .pika-label::after, .feedback-btn .caret, .feedback-btn .file-header-field-mapper .field-mapping-row-element .mapping-arrow .arrow-head, .feedback-btn .htDatepickerHolder .pika-label::after, .file-header-field-mapper .field-mapping-row-element .mapping-arrow .btn .arrow-head, .file-header-field-mapper .field-mapping-row-element .mapping-arrow .btn-stage-changes .dropdown-toggle .arrow-head, .file-header-field-mapper .field-mapping-row-element .mapping-arrow .feedback-btn .arrow-head, .htDatepickerHolder .btn .pika-label::after, .htDatepickerHolder .btn-stage-changes .dropdown-toggle .pika-label::after, .htDatepickerHolder .feedback-btn .pika-label::after {
+    margin-left: 0;
+}
+
+.caret, .dropdown .caret, .dropdown .file-header-field-mapper .field-mapping-row-element .mapping-arrow .arrow-head, .dropdown .htDatepickerHolder .pika-label::after, .file-header-field-mapper .field-mapping-row-element .mapping-arrow .arrow-head, .file-header-field-mapper .field-mapping-row-element .mapping-arrow .dropdown .arrow-head, .htDatepickerHolder .dropdown .pika-label::after, .htDatepickerHolder .pika-label::after {
+    border-left: 0;
+    border-right: 1px solid #12344d;
+    -webkit-transition: transform .1s linear;
+    -o-transition: transform .1s linear;
+    transition: transform .1s linear;
+    -webkit-transform-origin: 75% 25%;
+    -moz-transform-origin: 75% 25%;
+    -ms-transform-origin: 75% 25%;
+    transform-origin: 75% 25%;
+    border-top: 1px solid #12344d;
+    border-bottom: 0;
+    width: 5px;
+    height: 5px;
+    background-color: transparent;
+    transform: rotate(135deg);
+    margin-left: 4px;
+    top: 1px;
+}
+.caret, .dropdown .caret, .dropdown .file-header-field-mapper .field-mapping-row-element .mapping-arrow .arrow-head, .dropdown .htDatepickerHolder .pika-label::after, .dropup .caret, .dropup .file-header-field-mapper .field-mapping-row-element .mapping-arrow .arrow-head, .dropup .htDatepickerHolder .pika-label::after, .file-header-field-mapper .field-mapping-row-element .mapping-arrow .arrow-head, .file-header-field-mapper .field-mapping-row-element .mapping-arrow .dropdown .arrow-head, .file-header-field-mapper .field-mapping-row-element .mapping-arrow .dropup .arrow-head, .htDatepickerHolder .dropdown .pika-label::after, .htDatepickerHolder .dropup .pika-label::after, .htDatepickerHolder .pika-label::after {
+    right: 1px;
+    position: relative;
+}
+.caret, .file-header-field-mapper .field-mapping-row-element .mapping-arrow .arrow-head, .htDatepickerHolder .pika-label::after {
+    display: inline-block;
+    vertical-align: middle;
+    border-top: 4px solid\9;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
